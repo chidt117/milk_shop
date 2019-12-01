@@ -43,7 +43,6 @@ public class TeaShop implements Shop{
 		count++;
 		MilkTea tea = new MilkTea();
 		tea.setName("ÄÌ²è" + count);
-//		System.out.println(tea.getName());//²âÊÔÓÃ
 //		tea.setIngredient(null);
 		tea.setIngreName(ingreName);
 		milkTeas.add(tea);
